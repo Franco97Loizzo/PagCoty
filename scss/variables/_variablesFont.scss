@@ -1,0 +1,12 @@
+$letras: (
+    titulos: 'Oswald',
+    anchor: 'Open Sans',
+    textFont: 'Roboto',
+);
+
+@mixin textDesing ($size, $color, $aling, $separacion){
+    font-size: $size;
+    color: $color;
+    text-align: $aling;
+    line-height: $separacion;
+}
