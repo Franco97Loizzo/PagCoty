@@ -1,0 +1,27 @@
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carouselBanner{
+    margin-top: 10px;
+}
+
+.carousel-item{
+    object-fit: cover;
+}
+
+.cardsIndex{
+    @include flexBox (row, wrap, space-between);
+    margin: 10px auto;
+}
+
+.cardsIndex-2{
+    @include flexBox (row, wrap, space-between);
+    margin: 10px auto;
+}
+
+.verMas{
+    background-color: rgb(rgb(226, 163, 241));
+    width: 350px;
+}

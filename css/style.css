@@ -20,7 +20,8 @@ body {
   color: #bb8727; }
 
 .navegacionPrincipal {
-  margin: 1px;
+  max-width: 1200px;
+  margin: 1px auto;
   padding: 0.2%;
   border: black 1%;
   width: 100%;
@@ -29,3 +30,30 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between; }
+
+main {
+  max-width: 1200px;
+  margin: auto; }
+
+.carouselBanner {
+  margin-top: 10px; }
+
+.carousel-item {
+  object-fit: cover; }
+
+.cardsIndex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px auto; }
+
+.cardsIndex-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px auto; }
+
+.verMas {
+  background-color: rg; }
